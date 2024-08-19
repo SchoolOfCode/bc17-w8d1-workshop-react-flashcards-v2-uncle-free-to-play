@@ -1,15 +1,23 @@
 .headerWrapper {
     background: #16181F;
-    height: 25vh;
+    height: 30vh;
     color:white;
-
+    display: grid;
 }
 
 .logo {
     height: 100px;
     width: 100px;
+    display: flex;
+    justify-self: center;
 }
 
-.styles.header {
+.header {
+    display: flex;
+    justify-self: center;
+}
 
+.parag {
+    display: flex;
+    justify-self: center;
 }
