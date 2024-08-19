@@ -1,19 +1,26 @@
 .form {
     background:#232731;
-   
-}
-
-.question{
-    background:#2E323C;
-   
-}
-
-.answer{
-    background:#2E323C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 4vh;
    
 }
 
 .button{
     background:#08B1DF;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    
    
+}
+
+input{
+    background-color: #2f323c;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
