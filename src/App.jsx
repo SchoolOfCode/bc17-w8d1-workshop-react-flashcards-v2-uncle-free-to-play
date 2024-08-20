@@ -6,15 +6,16 @@ import Footer from './components/Footer/Footer.jsx'
 import Flashcard from './components/Flash card/Flashcard.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [flashBank, setFlashBank] = useState([{q: 'Bla bla' ,
+    a: 'bla'} ])
+  
 
   return (
     <>
     <Header />
-    <Form/>
-    <Flashcard/>
+    <Form />
+    <Flashcard flashBank={flashBank} />
     <Footer/>
-    
     </>
   )
 }
